@@ -1,0 +1,15 @@
+.fi-modal-content .fi-global-search > div {
+    @apply w-full;
+}
+
+.fi-modal-content .fi-global-search .fi-input-wrp {
+    @apply ring-0;
+}
+
+.fi-modal-content .fi-global-search .fi-input {
+    @apply py-2.5 border-0;
+}
+
+.fi-modal-content .fi-global-search .fi-global-search-results-ctn {
+    @apply max-w-xl ring-0 z-0 -mt-2 pt-4;
+}

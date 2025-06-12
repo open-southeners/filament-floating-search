@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenSoutheners\PhpPackage\Tests;
+namespace OpenSoutheners\FilamentFloatingSearch\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use OpenSoutheners\PhpPackage\ServiceProvider;
+use OpenSoutheners\FilamentFloatingSearch\ServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

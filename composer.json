@@ -1,6 +1,6 @@
 {
-    "name": "open-southeners/packagist_package_here",
-    "description": "and_description_here",
+    "name": "open-southeners/filament-floating-search",
+    "description": "Floating triggerable search that can also add some useful commands",
     "license": "MIT",
     "keywords": [
         "open-southeners"
@@ -19,7 +19,8 @@
         }
     ],
     "require": {
-        "php": "^8.2"
+        "php": "^8.2",
+        "filament/filament": "^3.0"
     },
     "require-dev": {
         "larastan/larastan": "^3.0",
@@ -31,12 +32,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "OpenSoutheners\\PhpPackage\\": "src"
+            "OpenSoutheners\\FilamentFloatingSearch\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "OpenSoutheners\\PhpPackage\\Tests\\": "tests"
+            "OpenSoutheners\\FilamentFloatingSearch\\Tests\\": "tests"
         }
     },
     "config": {
@@ -45,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "OpenSoutheners\\PhpPackage\\ServiceProvider"
+                "OpenSoutheners\\FilamentFloatingSearch\\ServiceProvider"
             ]
         }
     }
